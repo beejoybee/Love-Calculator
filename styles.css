@@ -1,20 +1,32 @@
 body {
-  background-color: black;
+  background-color: #FF9A8B;
+  background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
   color: White;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+
 h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Lobster', cursive;
   font-size: 4rem;
 }
-.input {
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+p {
+  margin-top: 20px;
+  margin-bottom: 0;
 }
-.button {
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+input {
+  margin: 20px;
+   border-top-style: hidden;
+   border-right-style: hidden;
+   border-left-style: hidden;
+   border-bottom-style: hidden;
+   border-radius: 30px 30px 30px 30px;
+}
+
+.btn {
+  margin: 20px;
 }
